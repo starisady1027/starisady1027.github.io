@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(211, 208, 27);
+}
+h1 {
+  color: rgb(235, 18, 18);
+}
+ul {
+  list-style-type: decimal;
+}
+.blue {
+  color: rgb(22, 169, 236);
+}
+.orange {
+  color: orange;
+}
+a:hover {
+  color: gray;
+}
+a {
+  color: aqua;
+}
