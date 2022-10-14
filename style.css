@@ -20,3 +20,16 @@ a:hover {
 a {
   color: aqua;
 }
+#welcome {
+  padding: 9px 5px 9px 750px;
+  border: 10px double orchid;
+  margin: auto;
+  width: 50%;
+}
+.div1 {
+  color: cyan;
+  padding: 10px 5px 10px 5px;
+  border: 15px dashed yellowgreen;
+  margin: 0 auto;
+  width: 50%;
+}
