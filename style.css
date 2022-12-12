@@ -4,12 +4,15 @@ body {
 }
 h1 {
   color: rgb(235, 18, 18);
+  font-size: 70px;
 }
 ul {
   list-style-type: decimal;
+  font-size: xx-large;
 }
-.blue {
-  color: rgb(22, 169, 236);
+.purple {
+  color: blueviolet;
+  font-size: 50px;
 }
 .orange {
   color: orange;
@@ -20,16 +23,47 @@ a:hover {
 a {
   color: aqua;
 }
-#welcome {
-  padding: 9px 5px 9px 750px;
-  border: 10px double orchid;
-  margin: auto;
-  width: 50%;
+.container {
+  background-color: rgba(17, 114, 206, 0.397);
+  width: auto;
+  height: 70px;
+  border: 10px solid rgb(2, 90, 204);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
-.div1 {
-  color: cyan;
-  padding: 10px 5px 10px 5px;
-  border: 15px dashed yellowgreen;
-  margin: 0 auto;
-  width: 50%;
+.item1 {
+  background-color: antiquewhite;
+  color: blueviolet;
+  width: 100px;
+  text-align: center;
+  margin: auto 0;
+  font-size: large;
+  font-style: normal;
+  cursor: pointer;
+}
+.item1:hover {
+  background-color: gray;
+}
+.item2 {
+  background-color: antiquewhite;
+  color: blueviolet;
+  width: 100px;
+  text-align: center;
+  margin: auto 0;
+  font-size: large;
+  font-style: normal;
+  cursor:pointer;
+}
+.item2:hover {
+  background-color: gray;
+}
+.invisible {
+  display: none;
+}
+.itemInfo {
+  color:rgb(0, 255, 102);
+  font-size:xx-large;
 }
